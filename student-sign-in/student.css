@@ -3,7 +3,7 @@
 /* https://vuejs.org/v2/guide/transitions.html */
 
 .fade-enter-active, .fade-leave-active {
-    transition: opacity .5s;
+    transition: opacity .3s;
 }
 
 .fade-enter, .fade-leave-to {
@@ -13,4 +13,13 @@
 #student-table {
     max-height: 500px;
     overflow: scroll;
+}
+
+.present-true {
+    color: gray;
+    font-style: italic;
+}
+
+.present-false {
+    font-style: bold;
 }
