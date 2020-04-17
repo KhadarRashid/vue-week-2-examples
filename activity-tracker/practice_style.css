@@ -2,3 +2,15 @@
     max-height: 250px;
     overflow: scroll;
 }
+
+.type-sketching {
+    color: green;
+}
+
+.type-drawing {
+    color: yellow;
+}
+
+.type-painting {
+    color: pink;
+}
